@@ -1,0 +1,478 @@
+{
+ "subject": "行政法",
+ "fetched": {
+  "同志社": "https://law-school.doshisha.ac.jp/entrance_ex/question/",
+  "立命館": "https://www.ritsumei.ac.jp/lawschool/admission/past.html/",
+  "慶應": "https://www.ls.keio.ac.jp/nyushi/examination.html",
+  "関学": "https://www.kwansei.ac.jp/lawschool/admissions/kakomon/",
+  "中央": "https://www.chuo-u.ac.jp/academics/pro_graduateschool/law/orientation/selection/past/"
+ },
+ "hosts": {
+  "doshisha-law.kir.jp": {
+   "embeddable": false,
+   "reason": "http"
+  },
+  "law-school.doshisha.ac.jp": {
+   "embeddable": true,
+   "reason": null
+  },
+  "www.ritsumei.ac.jp": {
+   "embeddable": true,
+   "reason": null
+  }
+ },
+ "items": [
+  {
+   "id": "dos-2027-zenki",
+   "univ": "同志社",
+   "year": 2027,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2027_zenki_mondai_gyoseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2027_zenki_kaisetsu_gyoseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2027_zenki_kaitou_gyoseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2026-zenki",
+   "univ": "同志社",
+   "year": 2026,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2026_zenki_mondai_gyoseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2026_zenki_kaisetsu_gyoseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2026_zenki_kaitou_gyoseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2026-koki",
+   "univ": "同志社",
+   "year": 2026,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2026koki_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2026koki_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2026koki_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2025-zenki",
+   "univ": "同志社",
+   "year": 2025,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2025zenki_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2025zenki_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2025zenki_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2025-koki",
+   "univ": "同志社",
+   "year": 2025,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2025koki_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2025koki_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2025koki_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2024-zenki",
+   "univ": "同志社",
+   "year": 2024,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2024zenki_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2024zenki_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2024zenki_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2024-koki",
+   "univ": "同志社",
+   "year": 2024,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2024koki_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2024koki_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2024koki_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2024-menjo",
+   "univ": "同志社",
+   "year": 2024,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2024exempt_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2024_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2024exempt_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2023-zenki",
+   "univ": "同志社",
+   "year": 2023,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2023_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2023_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2023_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2023-koki",
+   "univ": "同志社",
+   "year": 2023,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2023koki_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2023koki_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2023koki_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2023-menjo",
+   "univ": "同志社",
+   "year": 2023,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2023exempt_mondai_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2023exempt_kaisetsu_gyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2023exempt_kaitou_gyouseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2022-zenki",
+   "univ": "同志社",
+   "year": 2022,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2022_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2022_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2022_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2022-koki",
+   "univ": "同志社",
+   "year": 2022,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "http://doshisha-law.kir.jp/stg/wp-content/uploads/2022/04/2022_mondai_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2022_kaisetsu_gyouseihou2.pdf",
+   "kaitou": "http://doshisha-law.kir.jp/stg/wp-content/uploads/2022/04/2022_gyouseihout2.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2022-menjo",
+   "univ": "同志社",
+   "year": 2022,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "http://doshisha-law.kir.jp/stg/wp-content/uploads/2022/04/2022_mondai_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2022_kaisetsu_gyouseihou3.pdf",
+   "kaitou": "http://doshisha-law.kir.jp/stg/wp-content/uploads/2022/04/2022_gyouseihout3.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2021-zenki",
+   "univ": "同志社",
+   "year": 2021,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2021_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2021_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2021_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2021-koki",
+   "univ": "同志社",
+   "year": 2021,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2021_mondai_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2021_kaisetsu_gyouseihou2.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2021_gyouseihout2.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2021-menjo",
+   "univ": "同志社",
+   "year": 2021,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2021_mondai_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2021_kaisetsu_gyouseihou3.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2021_gyouseihout3.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2020-zenki",
+   "univ": "同志社",
+   "year": 2020,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2020_mondai_gyouseiho.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2020_kaisetsu_gyouseiho.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2020_kaitou_gyouseiho.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2020-koki",
+   "univ": "同志社",
+   "year": 2020,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2020_mondai_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2020_kaisetsu_gyouseihou2.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2020_gyouseihout2.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2020-menjo",
+   "univ": "同志社",
+   "year": 2020,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2020_mondai_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2020_kaisetsu_gyouseihou3.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2020_gyouseihout3.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2019-zenki",
+   "univ": "同志社",
+   "year": 2019,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/mondaigyoseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/kaigyouseihou.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/yoshigyoseihou.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2019-koki",
+   "univ": "同志社",
+   "year": 2019,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2019_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2019_gyouseihouk2.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2019_gyouseihout2.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2019-menjo",
+   "univ": "同志社",
+   "year": 2019,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2019_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2019_gyouseihouk3.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2019_gyouseihout3.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2018-zenki",
+   "univ": "同志社",
+   "year": 2018,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2018_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2018_gyouseihou_k.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2018_gyouseihout.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2018-koki",
+   "univ": "同志社",
+   "year": 2018,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2018_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2018_gyouseihouk2.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2018_gyouseihout2.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2018-menjo",
+   "univ": "同志社",
+   "year": 2018,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2018_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2018_gyouseihouk3.pdf",
+   "kaitou": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaitou/2018_gyouseihout3.pdf",
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2017-zenki",
+   "univ": "同志社",
+   "year": 2017,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2017_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2017_gyouseihouk.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2017-koki",
+   "univ": "同志社",
+   "year": 2017,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2017_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2017_gyouseihouk2.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2017-menjo",
+   "univ": "同志社",
+   "year": 2017,
+   "term": "履修免除",
+   "course": "履修免除試験",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2017_gyouseihou3.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2017_gyouseihouk3.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2016-zenki",
+   "univ": "同志社",
+   "year": 2016,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2016_gyouseihou.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2016_gyouseihouk.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2016-koki",
+   "univ": "同志社",
+   "year": 2016,
+   "term": "後期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2016_gyouseihou2.pdf",
+   "kaisetsu": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/kaisetsu/2016_gyouseihouk2.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2010-zenki",
+   "univ": "同志社",
+   "year": 2010,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2010_gyouseihou.pdf",
+   "kaisetsu": null,
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2009-zenki",
+   "univ": "同志社",
+   "year": 2009,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2009_gyouseihou.pdf",
+   "kaisetsu": null,
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "dos-2008-zenki",
+   "univ": "同志社",
+   "year": 2008,
+   "term": "前期",
+   "course": "法学既修者",
+   "mondai": "https://law-school.doshisha.ac.jp/wp-content/themes/du_theme/archive/02_entrance_ex/pdf/questions/2008_gyouseihou.pdf",
+   "kaisetsu": null,
+   "kaitou": null,
+   "kaisetsuLabel": "解説"
+  },
+  {
+   "id": "rit-2018-chuki",
+   "univ": "立命館",
+   "year": 2018,
+   "term": "中期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-18c_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2018-c2.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  },
+  {
+   "id": "rit-2018-koki",
+   "univ": "立命館",
+   "year": 2018,
+   "term": "後期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-18k_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2018-k.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  },
+  {
+   "id": "rit-2018-zenki",
+   "univ": "立命館",
+   "year": 2018,
+   "term": "前期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-18z_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2018-z.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  },
+  {
+   "id": "rit-2019-chuki",
+   "univ": "立命館",
+   "year": 2019,
+   "term": "中期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-19c_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2019-c.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  },
+  {
+   "id": "rit-2019-koki",
+   "univ": "立命館",
+   "year": 2019,
+   "term": "後期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-19k_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2019-k.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  },
+  {
+   "id": "rit-2019-zenki",
+   "univ": "立命館",
+   "year": 2019,
+   "term": "前期",
+   "course": "法学既修者（B方式）",
+   "mondai": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-19z_koho.pdf",
+   "kaisetsu": "https://www.ritsumei.ac.jp/lawschool/assets/file/admission/past-comment2019-z.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "入試講評",
+   "kaisetsuNote": "全科目まとめの講評。「公法（行政法）」の節を参照",
+   "mondaiNote": "憲法と合わせた「公法」1冊。行政法の問題を参照"
+  }
+ ]
+}
