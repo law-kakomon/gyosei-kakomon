@@ -3,6 +3,21 @@
 ロースクール既修者入試（行政法）の過去問を、**行政法の単元ごとに引ける**ようにした学習用ウェブアプリ。
 2026-10-13 作成。民法版・民訴版・会社法版の姉妹アプリ。
 
+## 姉妹アプリ
+
+| | リポ | 入口 |
+|---|---|---|
+| 民法過去問帳 | `../minpo-kakomon` | https://law-kakomon.github.io/minpo-kakomon/ |
+| 民事訴訟法過去問帳 | `../minso-kakomon` | https://law-kakomon.github.io/minso-kakomon/ |
+| 会社法過去問帳 | `../kaisha-kakomon` | https://law-kakomon.github.io/kaisha-kakomon/ |
+| 憲法過去問帳 | `../kenpo-kakomon` | https://law-kakomon.github.io/kenpo-kakomon/ |
+| 刑法過去問帳 | `../keiho-kakomon` | https://law-kakomon.github.io/keiho-kakomon/ |
+| 刑事訴訟法過去問帳 | `../keiso-kakomon` | https://law-kakomon.github.io/keiso-kakomon/ |
+
+科目の入口は https://law-kakomon.github.io/ 。
+道具一式（`tools/`）と `index.html` は共通で、科目設定だけ差し替える作り。
+**片方で直した不具合は他にも当てはまる**ので、直したら他リポも確かめること。
+
 ## 公開 URL
 
 **https://law-kakomon.github.io/gyosei-kakomon/** （GitHub Pages、main へ push すると自動反映）
