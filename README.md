@@ -42,6 +42,11 @@ python3 tools/build_data.py
 
 ## 姉妹サイト
 
+科目の入口は **https://law-kakomon.github.io/** 。
+
 - [民法過去問帳](https://law-kakomon.github.io/minpo-kakomon/)
 - [民事訴訟法過去問帳](https://law-kakomon.github.io/minso-kakomon/)
 - [会社法過去問帳](https://law-kakomon.github.io/kaisha-kakomon/)
+- [刑法過去問帳](https://law-kakomon.github.io/keiho-kakomon/)
+- [刑事訴訟法過去問帳](https://law-kakomon.github.io/keiso-kakomon/)
+- [憲法過去問帳](https://law-kakomon.github.io/kenpo-kakomon/)

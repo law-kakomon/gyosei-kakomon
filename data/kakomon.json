@@ -219,7 +219,7 @@
   },
   {
    "name": "地方自治",
-   "count": 4,
+   "count": 2,
    "subs": []
   }
  ],
@@ -271,10 +271,6 @@
     {
      "label": "行手法14条",
      "href": "https://natsunooda.github.io/roppo-viewer/#gyote/14"
-    },
-    {
-     "label": "行手法31条",
-     "href": "https://natsunooda.github.io/roppo-viewer/#gyote/31"
     },
     {
      "label": "憲法31条",
