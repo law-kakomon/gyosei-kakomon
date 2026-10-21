@@ -20,6 +20,8 @@ SUBJECT = {
     'ritsumei_key': 'koho',   # 立命館は憲法と合わせて「公法」の1冊
     # 関学はリンク文字「<科目>問題・解説（2026A日程）」の <科目>。無い科目は None
     'kwansei_label': None,
+    # 京大は年度ごとの表の科目セルの文字列（出題趣旨・採点基準つきのものだけ採る）
+    'kyodai_cell': '行政法',
     # 慶應は合冊 PDF のリンク文字に含まれる科目名
     'keio_keyword': None,
 }
@@ -28,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'data' / 'sources.json'
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'
 PAGES = {
+ '京大':   'https://lawschool.law.kyoto-u.ac.jp/nyushi/mondai/',
  '同志社': 'https://law-school.doshisha.ac.jp/entrance_ex/question/',
  '立命館': 'https://www.ritsumei.ac.jp/lawschool/admission/past.html/',
  '慶應':   'https://www.ls.keio.ac.jp/nyushi/examination.html',
@@ -243,6 +246,66 @@ def ritsumei_note(items):
     return []
 
 
+def kyodai(h):
+    """京大は年度ごとの表で、1セルに「科目名＋問題 PDF＋出題趣旨・採点基準 PDF」が入る。
+
+    ファイル名が年度ごとに揺れている（shushikijyun / shushikijun / shusikijyun、
+    shoho / syoho、令和7年度の憲法だけ年度番号なし）ので、名前を組み立てずに表から拾う。
+    出題趣旨が付いていないもの（商法の法学部3年次生出願枠）は採らない。
+    """
+    cell = SUBJECT.get('kyodai_cell')
+    if not cell:
+        return []
+    B = 'https://lawschool.law.kyoto-u.ac.jp'
+    items = []
+    parts = re.split(r'<h2[^>]*>\s*令和(\d+)年度\s*</h2>', h)
+    for i in range(1, len(parts) - 1, 2):
+        year = 2018 + int(parts[i])        # 令和8年度 = 2026年度
+        tbl = re.search(r'<table.*?</table>', parts[i + 1], re.S)
+        if not tbl:
+            continue
+        for td in re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', tbl.group(0), re.S):
+            if not re.sub(r'\s', '', clean(td)).startswith(cell):
+                continue
+            pdfs = [u if u.startswith('http') else B + u
+                    for u in re.findall(r'href="([^"]+\.pdf)"', td)]
+            if len(pdfs) < 2:
+                continue
+            items.append({
+                'id': f'kyo-{year}-ronjutsu', 'univ': '京大', 'year': year,
+                'term': '論述式', 'course': '法学既修者',
+                'mondai': pdfs[0], 'kaisetsu': pdfs[1], 'kaitou': None,
+                'kaisetsuLabel': '出題趣旨・採点基準',
+            })
+            break
+    return items
+
+
+FETCHERS = [
+    ('京大', kyodai),
+    ('同志社', doshisha),
+    ('立命館', ritsumei),
+]
+
+
+def collect(old):
+    """大学ごとに取得する。1校が落ちていても全体を止めず、その大学は前回の内容を据え置く。
+
+    相手は大学のウェブサイトなので、工事中や連続アクセスで 503 を返すことがある。
+    そこで全体を例外で落とさず、落ちた大学だけ前回の sources.json の項目を使う。
+    """
+    fetchers = [(u, f) for u, f in FETCHERS if u in PAGES]
+    items, stale = [], []
+    for univ, fn in fetchers:
+        try:
+            items += fn(get(PAGES[univ]))
+        except Exception as e:
+            keep = [x for x in old.values() if x['univ'] == univ]
+            items += keep
+            stale.append(f'{univ}: {type(e).__name__}（前回の {len(keep)} 件を据え置き）')
+    return items, stale
+
+
 def tidy_urls(items):
     """URL から空白を落とす。同志社のページは href の中で改行していることがあり
     （憲法の転入学の行など）、そのまま拾うと URL に \r\n が入ってしまう。"""
@@ -280,17 +343,18 @@ def host_embed_check(items):
 
 
 def main():
-    items = []
-    items += doshisha(get(PAGES['同志社']))
-    items += ritsumei(get(PAGES['立命館']))
-    # 関学・慶應・中央は既修者入試で行政法を課していない
-    items += ritsumei_note(items)
-    tidy_urls(items)
     old = {}
     if OUT.exists():
         old = {x['id']: x for x in json.load(open(OUT, encoding='utf-8'))['items']}
+    items, stale = collect(old)
+    # 関学・慶應・中央は既修者入試で行政法を課していない
+    items += ritsumei_note(items)
+    tidy_urls(items)
     new_ids = [x['id'] for x in items if x['id'] not in old]
     gone = [k for k in old if k not in {x['id'] for x in items}]
+    if stale:
+        for w in stale:
+            print('⚠ 取得できず据え置き:', w)
     print('ホストの埋め込み可否を確認中…')
     hosts = host_embed_check(items)
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,7 @@
 {
  "generated": true,
  "sources": {
+  "京大": "https://lawschool.law.kyoto-u.ac.jp/nyushi/mondai/",
   "同志社": "https://law-school.doshisha.ac.jp/entrance_ex/question/",
   "立命館": "https://www.ritsumei.ac.jp/lawschool/admission/past.html/",
   "慶應": "https://www.ls.keio.ac.jp/nyushi/examination.html",
@@ -31,7 +32,7 @@
   },
   {
    "name": "行政作用",
-   "count": 14,
+   "count": 15,
    "subs": [
     {
      "name": "行政行為の効力・瑕疵",
@@ -46,7 +47,7 @@
     {
      "name": "行政指導",
      "key": "行政作用/行政指導",
-     "count": 6
+     "count": 7
     },
     {
      "name": "行政契約",
@@ -62,17 +63,17 @@
   },
   {
    "name": "行政手続",
-   "count": 19,
+   "count": 21,
    "subs": [
     {
      "name": "申請に対する処分",
      "key": "行政手続/申請に対する処分",
-     "count": 8
+     "count": 9
     },
     {
      "name": "不利益処分・理由の提示",
      "key": "行政手続/不利益処分・理由の提示",
-     "count": 9
+     "count": 10
     },
     {
      "name": "行政指導の手続",
@@ -110,12 +111,12 @@
   },
   {
    "name": "取消訴訟",
-   "count": 1,
+   "count": 6,
    "subs": [
     {
      "name": "処分性",
      "key": "取消訴訟/処分性",
-     "count": 1
+     "count": 3
     },
     {
      "name": "原告適格",
@@ -125,7 +126,7 @@
     {
      "name": "訴えの利益",
      "key": "取消訴訟/訴えの利益",
-     "count": 0
+     "count": 3
     },
     {
      "name": "被告適格・管轄・出訴期間",
@@ -146,7 +147,7 @@
   },
   {
    "name": "その他の訴訟",
-   "count": 1,
+   "count": 2,
    "subs": [
     {
      "name": "無効等確認の訴え",
@@ -171,7 +172,7 @@
     {
      "name": "当事者訴訟",
      "key": "その他の訴訟/当事者訴訟",
-     "count": 0
+     "count": 1
     },
     {
      "name": "民衆訴訟・機関訴訟",
@@ -219,7 +220,7 @@
   },
   {
    "name": "地方自治",
-   "count": 2,
+   "count": 3,
    "subs": []
   }
  ],
@@ -279,6 +280,42 @@
    ],
    "hanrei": [
     "最大判平成4年7月1日"
+   ],
+   "classified": true
+  },
+  {
+   "id": "kyo-2026-ronjutsu",
+   "univ": "京大",
+   "year": 2026,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2026/03/mondai_8gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2026/03/shushikijyun_8gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準",
+   "embed": {
+    "mondai": true,
+    "kaisetsu": true,
+    "kaitou": false
+   },
+   "embedWhy": {
+    "mondai": null,
+    "kaisetsu": null,
+    "kaitou": null
+   },
+   "basis": "解説",
+   "units": [
+    "取消訴訟/処分性",
+    "地方自治"
+   ],
+   "topics": [
+    "保育所廃止条例の処分性",
+    "条例制定行為の違法性を主張するための訴えの選択",
+    "保育所の入所関係について複数ありうる法律構成"
+   ],
+   "articles": [],
+   "hanrei": [
+    "最判平成21年11月26日"
    ],
    "classified": true
   },
@@ -366,6 +403,45 @@
    "classified": true
   },
   {
+   "id": "kyo-2025-ronjutsu",
+   "univ": "京大",
+   "year": 2025,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2025/01/mondai_7gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2025/01/shushikijyun_7gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準",
+   "embed": {
+    "mondai": true,
+    "kaisetsu": true,
+    "kaitou": false
+   },
+   "embedWhy": {
+    "mondai": null,
+    "kaisetsu": null,
+    "kaitou": null
+   },
+   "basis": "解説",
+   "units": [
+    "取消訴訟/処分性",
+    "その他の訴訟/当事者訴訟"
+   ],
+   "topics": [
+    "ストーカー規制法の警告の処分性（禁止命令等との対比）",
+    "公法上の法律関係に関する確認の訴え（行訴法4条）の利益",
+    "処分性の判断と原告固有の事情の切り分け"
+   ],
+   "articles": [
+    {
+     "label": "行訴法4条",
+     "href": "https://natsunooda.github.io/roppo-viewer/#gyoso/4"
+    }
+   ],
+   "hanrei": [],
+   "classified": true
+  },
+  {
    "id": "dos-2025-zenki",
    "univ": "同志社",
    "year": 2025,
@@ -428,6 +504,42 @@
     "非開示事由（任意提供情報）の解釈",
     "「できる」規定と義務規定の違いからの裁量の有無",
     "条例の仕組み解釈"
+   ],
+   "articles": [],
+   "hanrei": [],
+   "classified": true
+  },
+  {
+   "id": "kyo-2024-ronjutsu",
+   "univ": "京大",
+   "year": 2024,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2024/01/mondai_6gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2024/01/shushikijyun_6gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準",
+   "embed": {
+    "mondai": true,
+    "kaisetsu": true,
+    "kaitou": false
+   },
+   "embedWhy": {
+    "mondai": null,
+    "kaisetsu": null,
+    "kaitou": null
+   },
+   "basis": "解説",
+   "units": [
+    "行政作用/行政指導",
+    "行政手続/申請に対する処分",
+    "取消訴訟/訴えの利益"
+   ],
+   "topics": [
+    "申請手続を契機とする応答留保の行政指導",
+    "通知がいかなる法的意味を持つか",
+    "行政手続上の対応と訴訟類型の選択",
+    "指定期間満了後の指定取消しの取消訴訟における訴えの利益"
    ],
    "articles": [],
    "hanrei": [],
@@ -531,6 +643,38 @@
    "topics": [
     "不利益処分における意見の聴取（聴聞・弁明の機会）",
     "申請に対する処分の手続との比較"
+   ],
+   "articles": [],
+   "hanrei": [],
+   "classified": true
+  },
+  {
+   "id": "kyo-2023-ronjutsu",
+   "univ": "京大",
+   "year": 2023,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2023/01/mondai_5gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2023/01/shushikijyun_5gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準",
+   "embed": {
+    "mondai": true,
+    "kaisetsu": true,
+    "kaitou": false
+   },
+   "embedWhy": {
+    "mondai": null,
+    "kaisetsu": null,
+    "kaitou": null
+   },
+   "basis": "解説",
+   "units": [
+    "取消訴訟/訴えの利益"
+   ],
+   "topics": [
+    "医業の停止期間満了後も指定医の指定取消しの取消しを求める狭義の訴えの利益が残るか",
+    "再度の指定・医籍の登録・再教育研修の命令・診療所開設の許可との関係"
    ],
    "articles": [],
    "hanrei": [],
@@ -664,6 +808,43 @@
     }
    ],
    "hanrei": [],
+   "classified": true
+  },
+  {
+   "id": "kyo-2022-ronjutsu",
+   "univ": "京大",
+   "year": 2022,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2022/01/mondai_4gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2022/01/shushikijun_4gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準",
+   "embed": {
+    "mondai": true,
+    "kaisetsu": true,
+    "kaitou": false
+   },
+   "embedWhy": {
+    "mondai": null,
+    "kaisetsu": null,
+    "kaitou": null
+   },
+   "basis": "解説",
+   "units": [
+    "取消訴訟/訴えの利益",
+    "行政手続/不利益処分・理由の提示"
+   ],
+   "topics": [
+    "不利益処分の取消訴訟における訴えの利益",
+    "処分基準が存在する場合の取扱い",
+    "処分基準の適用関係を示さない理由提示は違法か"
+   ],
+   "articles": [],
+   "hanrei": [
+    "最判平成27年3月3日",
+    "最判平成23年6月7日"
+   ],
    "classified": true
   },
   {

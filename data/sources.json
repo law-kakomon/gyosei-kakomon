@@ -1,6 +1,7 @@
 {
  "subject": "行政法",
  "fetched": {
+  "京大": "https://lawschool.law.kyoto-u.ac.jp/nyushi/mondai/",
   "同志社": "https://law-school.doshisha.ac.jp/entrance_ex/question/",
   "立命館": "https://www.ritsumei.ac.jp/lawschool/admission/past.html/",
   "慶應": "https://www.ls.keio.ac.jp/nyushi/examination.html",
@@ -16,12 +17,71 @@
    "embeddable": true,
    "reason": null
   },
+  "lawschool.law.kyoto-u.ac.jp": {
+   "embeddable": true,
+   "reason": null
+  },
   "www.ritsumei.ac.jp": {
    "embeddable": true,
    "reason": null
   }
  },
  "items": [
+  {
+   "id": "kyo-2026-ronjutsu",
+   "univ": "京大",
+   "year": 2026,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2026/03/mondai_8gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2026/03/shushikijyun_8gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準"
+  },
+  {
+   "id": "kyo-2025-ronjutsu",
+   "univ": "京大",
+   "year": 2025,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2025/01/mondai_7gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2025/01/shushikijyun_7gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準"
+  },
+  {
+   "id": "kyo-2024-ronjutsu",
+   "univ": "京大",
+   "year": 2024,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2024/01/mondai_6gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2024/01/shushikijyun_6gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準"
+  },
+  {
+   "id": "kyo-2023-ronjutsu",
+   "univ": "京大",
+   "year": 2023,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2023/01/mondai_5gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2023/01/shushikijyun_5gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準"
+  },
+  {
+   "id": "kyo-2022-ronjutsu",
+   "univ": "京大",
+   "year": 2022,
+   "term": "論述式",
+   "course": "法学既修者",
+   "mondai": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2022/01/mondai_4gyoseiho.pdf",
+   "kaisetsu": "https://lawschool.law.kyoto-u.ac.jp/cms/uploads/2022/01/shushikijun_4gyoseiho.pdf",
+   "kaitou": null,
+   "kaisetsuLabel": "出題趣旨・採点基準"
+  },
   {
    "id": "dos-2027-zenki",
    "univ": "同志社",

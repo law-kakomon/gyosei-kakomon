@@ -61,7 +61,7 @@ OG_HTML = f"""<body style="margin:0;width:1200px;height:630px;
     ロー入試（既修者）の行政法の過去問を、単元ごとに引く
   </div>
   <div style="font-size:26px;margin:30px 0 0 43px;line-height:1.75;opacity:.78">
-    同志社・立命館／2008〜2027年度の40回を収録<br>
+    京大・同志社・立命館／2008〜2027年度の45回を収録<br>
     行政裁量・行政手続・取消訴訟・国家補償などの単元から絞り込み<br>
     問題と解説は各大学の公式ページをそのまま開く
   </div>

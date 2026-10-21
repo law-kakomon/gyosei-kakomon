@@ -10,7 +10,7 @@ import classify as C
 TERM_ORDER = {'前期': 0, '中期': 1, '後期': 2, '履修免除': 3, '転入学': 4,
               '本試験': 0, '追試験': 1,
               'A日程': 0, 'B日程': 1, 'C日程': 2, 'D日程': 3, '論述式': 0}
-UNIV_ORDER = {'同志社': 0, '立命館': 1, '関学': 2, '慶應': 3, '中央': 4}
+UNIV_ORDER = {'京大': 0, '同志社': 1, '立命館': 2, '関学': 3, '慶應': 4, '中央': 5}
 
 def main():
     src = json.load(open(ROOT / 'data' / 'sources.json', encoding='utf-8'))
